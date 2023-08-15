@@ -1,0 +1,7 @@
+container:
+  type: ColumnPanel
+  event_bindings: {refreshing_data_bindings: form_refreshing_data_bindings, hide: form_1_hide,
+    show: form_1_show}
+  data_bindings: []
+components: []
+is_package: true

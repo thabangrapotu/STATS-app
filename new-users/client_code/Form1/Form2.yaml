@@ -1,0 +1,13 @@
+properties: []
+is_package: false
+events: []
+custom_component: true
+components:
+- type: ColumnPanel
+  properties: {}
+  name: column_panel_1
+  layout_properties: {slot: default}
+container:
+  type: HtmlTemplate
+  properties: {tooltip: '', background: '', foreground: '', border: '', visible: true,
+    role: null, html: ''}

@@ -1,0 +1,242 @@
+properties:
+- {name: prop, type: number, default_value: 9, default_binding_prop: true}
+- {name: prop_2, type: string, default_value: ''}
+- {name: prop_3, type: string, default_value: ''}
+is_package: true
+events:
+- {name: event, default_event: true}
+custom_component: true
+components:
+- type: ColumnPanel
+  properties: {col_widths: '{}'}
+  name: content_panel
+  layout_properties: {slot: default}
+  components:
+  - type: ColumnPanel
+    properties: {role: outlined-card, tooltip: '', border: '', foreground: '', visible: true,
+      wrap_on: mobile, col_spacing: medium, spacing_above: small, col_widths: '{"RYBRCZ":10,"WWLBSE":25,"HOTDOT":10,"VBKCSZ":15,"OTLXOP":10,"GQCULK":25,"JKAVLM":10,"VRCEJC":15}',
+      spacing_below: small, background: ''}
+    name: outlined_card_1
+    layout_properties: {grid_position: 'JHQGQE,ICVCDU'}
+    components:
+    - type: Label
+      properties: {role: null, align: right, tooltip: '', border: '', foreground: '',
+        visible: true, text: 'First Name:', font_size: 12, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: 'data:image/jpeg;base64,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'}
+      name: label_1
+      layout_properties: {grid_position: 'THWJDC,RYBRCZ'}
+    - type: TextBox
+      properties: {role: outlined, align: center, hide_text: false, tooltip: '! Please
+          fill in ', placeholder: '', border: '', enabled: true, foreground: '', visible: true,
+        text: '', font_size: 15, font: '', spacing_above: small, type: text, spacing_below: small,
+        italic: false, background: '', bold: false, underline: false}
+      name: first_name
+      layout_properties: {grid_position: 'THWJDC,WWLBSE'}
+      event_bindings: {pressed_enter: first_name_pressed_enter, focus: first_name_focus,
+        lost_focus: first_name_lost_focus}
+      data_bindings: []
+    - type: Label
+      properties: {role: null, align: right, tooltip: '', border: '', foreground: '',
+        visible: true, text: 'Last Name:', font_size: 12, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: 'data:image/jpeg;base64,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'}
+      name: label_2
+      layout_properties: {grid_position: 'THWJDC,HOTDOT'}
+    - type: TextBox
+      properties: {role: outlined, align: center, hide_text: false, tooltip: '! Please
+          fill in', placeholder: '', border: '', enabled: true, foreground: '', visible: true,
+        text: '', font_size: 15, font: '', spacing_above: small, type: text, spacing_below: small,
+        italic: false, background: '', bold: false, underline: false}
+      name: last_name
+      layout_properties: {grid_position: 'THWJDC,VBKCSZ'}
+      event_bindings: {pressed_enter: last_name_pressed_enter, lost_focus: last_name_lost_focus}
+    - type: Label
+      properties: {role: null, align: right, tooltip: '', border: '', foreground: '',
+        visible: true, text: 'Area Name:', font_size: 12, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: 'data:image/jpeg;base64,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'}
+      name: label_3
+      layout_properties: {grid_position: 'YDYVIC,OTLXOP HVAJRM,MGDNFF', full_width_row: false}
+    - type: Label
+      properties: {role: null, align: right, tooltip: '', border: '', foreground: '',
+        visible: true, text: 'ID Number:', font_size: 12, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: 'data:image/jpeg;base64,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'}
+      name: label_7
+      layout_properties: {grid_position: 'YDYVIC,OTLXOP NMKEEE,PQSPXY', full_width_row: false}
+    - type: DropDown
+      properties:
+        role: outlined
+        align: full
+        tooltip: '! Select option'
+        placeholder: ''
+        border: ''
+        enabled: true
+        foreground: ''
+        items: [Windmill Park, Dawn Park, Dawn City, Villa Lisa, Klipportjie, Tokoza,
+          East Rand, Sunward, Boksburg, Leondale, Other]
+        visible: true
+        font_size: 15
+        font: ''
+        spacing_above: small
+        spacing_below: small
+        italic: false
+        background: ''
+        bold: false
+        underline: false
+        include_placeholder: true
+      name: nearby_area_dropdown
+      layout_properties: {grid_position: 'YDYVIC,GQCULK QEWQPF,OEYWUL', full_width_row: false}
+      event_bindings: {change: nearby_area_dropdown_change, show: nearby_area_dropdown_show,
+        hide: nearby_area_dropdown_hide}
+      data_bindings: []
+    - type: TextBox
+      properties: {role: outlined, align: center, hide_text: false, tooltip: '! Please
+          fill in ', placeholder: '', border: '', enabled: true, foreground: '', visible: true,
+        text: '', font_size: 15, font: '', spacing_above: small, type: number, spacing_below: small,
+        italic: false, background: '', bold: false, underline: false}
+      name: ext_num
+      layout_properties: {grid_position: 'YDYVIC,GQCULK DBMVUM,AZPSID', full_width_row: false}
+      event_bindings: {pressed_enter: ext_num_pressed_enter, lost_focus: ext_num_lost_focus,
+        focus: ext_num_focus}
+      data_bindings: []
+    - type: DatePicker
+      properties: {role: outlined, align: left, max_date: '', pick_time: false, tooltip: '',
+        placeholder: Date of birth, border: '', enabled: false, foreground: '', visible: true,
+        font_size: null, font: '', spacing_above: small, spacing_below: small, italic: false,
+        date: '', min_date: '', background: '', bold: false, underline: false, format: DD MMMM YYYY}
+      name: date_of_birth
+      layout_properties: {grid_position: 'YDYVIC,GQCULK DBMVUM,JZNEAV', full_width_row: false}
+      event_bindings: {change: date_picker_1_change}
+    - type: Label
+      properties: {role: null, align: right, tooltip: '', border: '', foreground: '',
+        visible: true, text: 'Cell Number:', font_size: 12, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: 'data:image/jpeg;base64,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'}
+      name: label_4
+      layout_properties: {grid_position: 'YDYVIC,JKAVLM ABECIN,USIESS', full_width_row: false}
+    - type: Label
+      properties: {role: null, align: right, tooltip: '', border: '', foreground: '',
+        visible: true, text: 'Gender :', font_size: 12, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: 'data:image/jpeg;base64,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'}
+      name: gender_label
+      layout_properties: {grid_position: 'YDYVIC,JKAVLM LMWXUO,KRGIXE', full_width_row: false}
+    - type: TextBox
+      properties: {role: outlined, align: center, hide_text: false, tooltip: '! Please
+          fill in', placeholder: '', border: '', enabled: true, foreground: '', visible: true,
+        text: '', font_size: 15, font: '', spacing_above: small, type: number, spacing_below: small,
+        italic: false, background: '', bold: false, underline: false}
+      name: cell_number
+      layout_properties: {grid_position: 'YDYVIC,VRCEJC YPQLHP,PCSYIR', full_width_row: false}
+      event_bindings: {pressed_enter: cell_number_pressed_enter, lost_focus: cell_number_lost_focus,
+        focus: cell_number_focus}
+    - type: DropDown
+      properties:
+        role: outlined
+        align: full
+        tooltip: '! Select option'
+        placeholder: ''
+        border: ''
+        enabled: false
+        foreground: ''
+        items: [Male, Female, '']
+        visible: true
+        font_size: 15
+        font: ''
+        spacing_above: small
+        spacing_below: small
+        italic: false
+        background: ''
+        bold: false
+        underline: false
+        include_placeholder: true
+      name: gender_dropdown
+      layout_properties: {grid_position: 'YDYVIC,VRCEJC UDVLBU,KBUPWQ', full_width_row: false}
+      event_bindings: {hide: gender_dropdown_hide}
+    - type: ColumnPanel
+      properties: {role: foo, tooltip: '', border: '', foreground: '', visible: true,
+        wrap_on: mobile, col_spacing: medium, spacing_above: small, col_widths: '{"QAFISN":25,"EVNMDQ":35}',
+        spacing_below: small, background: ''}
+      name: column_panel_1
+      layout_properties: {grid_position: 'XVYCJI,AYEXBV'}
+      components:
+      - type: Label
+        properties: {role: null, align: right, tooltip: '', border: '', foreground: '',
+          visible: true, text: 'Would you like to be a member?', font_size: null,
+          font: '12', spacing_above: small, icon_align: left, spacing_below: small,
+          italic: false, background: '', bold: false, underline: false, icon: 'data:image/jpeg;base64,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'}
+        name: join_church
+        layout_properties: {grid_position: 'MLYVPG,QAFISN'}
+      - type: DropDown
+        properties:
+          role: outlined
+          align: full
+          tooltip: '! Select option'
+          placeholder: ''
+          border: ''
+          enabled: true
+          foreground: ''
+          items: ['Yes', Not Yet]
+          visible: true
+          font_size: 15
+          font: ''
+          spacing_above: small
+          spacing_below: small
+          italic: false
+          background: ''
+          bold: false
+          underline: false
+          include_placeholder: true
+        name: member_status
+        layout_properties: {grid_position: 'MLYVPG,EVNMDQ'}
+        event_bindings: {hide: member_status_hide, change: member_status_change}
+        data_bindings: []
+    - type: Button
+      properties: {role: tonal-button, align: center, tooltip: '', border: '', enabled: true,
+        foreground: '', visible: true, text: Submit, font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+        underline: false, icon: ''}
+      name: Submit_button
+      layout_properties: {grid_position: 'MFTBSE,QTRDJZ'}
+      event_bindings: {click: Submit_button_}
+  - type: ColumnPanel
+    properties: {role: outlined-card, col_widths: '{}'}
+    name: outlined_card_2
+    layout_properties: {grid_position: 'YPWPMM,ZNOVKW'}
+    components:
+    - type: Label
+      properties: {role: null, align: center, tooltip: '', border: '', foreground: red,
+        visible: true, text: 'Disclaimer: Please note that the captured information
+          will be used or processed solely for church purposes and in accordance with
+          the POPI Act. You are entitled to request the retention or destruction of
+          your personal information from the system. For any inquiries, please contact
+          the admin at 0## $$$ ##$$.', font_size: 14, font: '', spacing_above: large,
+        icon_align: left, spacing_below: none, italic: false, background: '', bold: true,
+        underline: false, icon: ''}
+      name: label_1_copy
+      layout_properties: {grid_position: 'KVNGPU,ZBKIGS'}
+- type: ColumnPanel
+  properties: {col_widths: '{}'}
+  name: column_panel_2
+  layout_properties: {slot: nav-right}
+  components:
+  - type: form:Form3
+    properties: {}
+    name: form3_2
+    layout_properties: {grid_position: 'IDUMGV,KVXRIN'}
+- type: ColumnPanel
+  properties: {col_widths: '{}'}
+  name: column_panel_3
+  layout_properties: {slot: title}
+  components:
+  - type: form:Form3_copy
+    properties: {}
+    name: form3_copy_1
+    layout_properties: {grid_position: 'RUVBMN,QQYEGB'}
+container:
+  type: HtmlTemplate
+  properties: {tooltip: '', background: '', foreground: '', border: '', visible: true,
+    role: null, html: '@theme:standard-page1.html'}
+  event_bindings: {show: form_show}

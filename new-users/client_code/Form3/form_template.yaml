@@ -1,0 +1,40 @@
+is_package: true
+container:
+  type: HtmlTemplate
+  properties: {tooltip: '', background: '', foreground: '', border: '', visible: true,
+    role: null, html: "<!DOCTYPE html>\n<html>\n  <head>\n    <link href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500\"\
+      \ rel=\"stylesheet\" rel=\"preload\" as=\"font\" crossorigin=\"anonymous\">\n\
+      \    <script src=\" _/theme/javascript.js\"></script>\n    <style>\n      .overlay\
+      \ {\n        position: fixed;\n        top: 20;\n        bottom: 40;\n     \
+      \   left: 0;\n        width: 100%;\n        height: 50px; /* Adjust this value\
+      \ to cover the desired portion */\n        background-color: #f2f2f2;\n    \
+      \    z-index:-5;\n        font-size: 24px; /* Change the text size to your desired\
+      \ value */\n      }\n\n\n      .top-box {\n        /*         font-size:34px;\
+      \ */\n        background-color: red;\n        padding: 20px;\n        text-align:\
+      \ middle;\n        margin-top: 0px;\n        margin-bottom: 15px;\n        /*\
+      \         height:6px; */\n        border-radius:15px;\n        margin-left:5px;\n\
+      \        height: 60px; /* Decrease the height as desired */\n\n        /*  \
+      \       background-image: linear-gradient(to right, gold, #ffd700); */\n   \
+      \     -webkit-background-clip: text;\n        background-clip: text;\n     \
+      \   color: darkgoldenrod;\n        text-shadow: 0 0 0px rgba(255, 215, 0,215);\n\
+      \        z-index: 5;\n        position: absolte;\n        top:-50%; /* Adjust\
+      \ this value to move the text upwards */\ncolor: darkgoldenrod;\n      }\n\n\
+      \      .top-bx h2{\n\n\n        font-size: 60px;\n\n      }\n\n\n      .back-button\
+      \ {\n        position: absolute;\n        bottom:-66px;\n        left:-10px;\n\
+      \        background-color:  #f2f2f2;\n\n        color:  #f2f2f2;\n        \n\
+      padding: 5px 10px;\n        border: none;\n        border-radius: 5px;\n   \
+      \     cursor: pointer;\n        height:50x;\n\n      }\n\n      /* Back arrow\
+      \ shape */\n      .back-button::before {\n        content: '\\2190'; /* Unicode\
+      \ for leftwards arrow */\n        display: inline-block;\n        margin-right:2px;\n\
+      \        transform: rotate(180deg); /* Rotate the arrow shape */\n      }\n\n\
+      \n\n\n\n\n\n    </style>\n\n  </head>\n  <body>\n    <div class=\"overlay\"\
+      >\n      <div class=\"top-box\">\n        <h2 id= \"Yes/No\">Dear Beloved, welcome\
+      \ to God With Us Royal Assembly. Please feel in the following.</h2>\n      \
+      \  <!--         <button class=\"back-button\"  title=\"Go back to previous page\"\
+      >Back</button -->\n\n        <a href=\"https://welcome-page-sundaystats-0q123rtxzdfr01.anvil.app\"\
+      \ target=\"_self\" class=\"back-button\" title=\"Go back to previous page\"\
+      >Back</a>                                                                  \
+      \  \n\n      </div>\n\n    </div>\n\n  </body>\n</html>\n</body>\n</html>"}
+components: []
+custom_component: true
+properties: []

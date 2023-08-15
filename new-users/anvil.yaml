@@ -1,0 +1,59 @@
+dependencies:
+- dep_id: dep_v5p036d8sqjcuw
+  version: {dev: false}
+  resolution_hints: {app_id: 377YE7H2KNOUQYHV, name: alert2, package_name: alert2}
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
+startup: {type: form, module: Form1}
+package_name: God_With_Us_Royal_Assembly_Visitors_Page
+allow_embedding: false
+name: God With Us Royal Assembly Visitors Page
+runtime_options:
+  version: 2
+  client_version: '3'
+  server_version: python3-full
+  server_spec: null
+  server_spec_disabled: {base: python310-minimal, requirements: ''}
+metadata: {logo_img: 'asset:unnamed logo.jpg', title: God With Us Royal Assembly - Visitors page,
+  description: Visitors signup or cancel}
+startup_form: null
+native_deps: {head_html: "<script>\n \n  var element = document.getElementById(\"\
+    Yes/No\");\n  if (element) {\n    element.style.display = \"none\";\n    element.parentNode.removeChild(element);\n\
+    \    // s=true\n\n\n  }\n  // var s = false;\n  function replaceH_2_WithNewLine()\
+    \ {\n    var element = document.getElementById(\"Yes/No\");\n    if (element)\
+    \ {\n      element.style.display = \"none\";\n      element.parentNode.removeChild(element);\n\
+    \      // s=true;\n\n\n    }\n    return('1')\n  }\n  // var element = document.getElementById(\"\
+    Yes/No\");\n  // if (element) {\n  //   element.style.display = \"none\";\n  //\
+    \   element.parentNode.removeChild(element);\n  // }\n  // var element = document.getElementById(\"\
+    anvil-header\");\n  // var h2Elements = document.getElementsByClassName(\"top-box\"\
+    ); // Replace 'your-h2-class-name' with the actual class name\n  // var newLine\
+    \ = \"<h2>This is the new line content.</h2>\";\n\n  // // Assuming you want to\
+    \ replace the first matched element\n  // if (h2Elements.length > 0) {\n  // \
+    \  h2Elements[0].innerHTML = newLine;\n  //   s = true    \n  // }\n  // if (element){\n\
+    \n  //   s = true\n  // }\n  // return(s)\n  // }\n\n  // JavaScript code here\n\
+    \n  // Hide and Remove all Anvil element\n  function hideAndRemoveElement() {\n\
+    \    var element = document.getElementById(\"anvil-header\");\n\n    while (element)\
+    \ {\n      element.style.display = \"none\";\n      element.parentNode.removeChild(element);\n\
+    \      element = document.getElementById(\"anvil-header\");\n    }\n  }\n  hideAndRemoveElement()\n\
+    \  // var element = document.getElementById(\"anvil-header\");\n  // if (element)\
+    \ {\n  //   element.style.display = \"none\";\n  //   element.parentNode.removeChild(element);\n\
+    \  // }\n  // Use the var keyword to declare the function\n  var handleKeyPress\
+    \ = function(e) {\n    // Filter out non-alphabetic characters\n    if (!/^[a-zA-Z]$/.test(e.key))\
+    \ {\n      e.preventDefault();\n    }\n  };\n\n  // Attach the handleKeyPress\
+    \ function to the keypress event\n  // $(document).on('keypress', handleKeyPress);\n\
+    \n  // Use the var keyword to declare the function\n  var handleKeyPress2 = function(e)\
+    \ {\n    // Filter out non-alphabetic characters\n    if (!/^[0-9]+$/.test(e.key))\
+    \ {\n      e.preventDefault();\n    }\n\n  };\n\n  // Attach the handleKeyPress\
+    \ function to the keypress event\n  // $(document).on('keypress', handleKeyPress);\n\
+    \  // Attach the handleKeyPress function to the keypress event\n  // Attach the\
+    \ handleNumberKeyPress function to the keypress event for numbers\n  $(document).on('keypress',\
+    \ handleKeyPress, 'some_event_data');\n\n  // Attach the handleAlphabetKeyPress\
+    \ function to the keypress event for alphabets\n  $(document).on('keypress', handleKeyPress2,\
+    \ 'some_event_data2');\n  var closeWindow = function(){\n    // window.close()\n\
+    \    print('Hi')\n  };\n  $(document).on('close', closeWindow, 'some_event_data3');\n\
+    </script>\n"}
+db_schema: {}
+uplink_visible: true
+renamed: true

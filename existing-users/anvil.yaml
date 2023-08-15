@@ -1,0 +1,28 @@
+dependencies: []
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
+package_name: God_With_Us_Royal_Assembly_Visitors_Page
+allow_embedding: false
+name: God With Us Royal Assembly Welcome Page
+runtime_options:
+  version: 2
+  client_version: '3'
+  server_version: python3-sandbox
+  server_spec: {base: python310-minimal}
+  server_spec_disabled: {requirements: '', base: python310-minimal}
+metadata: {logo_img: 'asset:unnamed logo.jpg', title: God With Us Royal Assembly - Welcome page,
+  description: Church Visitors or Member Page}
+startup_form: Form1
+native_deps: {head_html: "<script src= \"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"\
+    ></script>\n\n<script>\n\n  // window.scrollTo(0, document.body.scrollHeight);\n\
+    \  // $(document).ready(function(){\n\n  //  $(document).scroll($(document).height(0));\
+    \  \n\n  // });  \n  // function autoScroll(){\n  // x = 0;  //horizontal coord\n\
+    \  // y = ($document).height; //vertical coord\n  // window.scrollTo(x,y);\n \
+    \ // };\n\n  function pageScroll() {\n    window.scrollBy(0,50); // horizontal\
+    \ and vertical scroll increments\n    scrolldelay = setTimeout('pageScroll()',100);\
+    \ // scrolls every 100 milliseconds\n}\n\n</script>\n\n"}
+db_schema: {}
+uplink_visible: true
+renamed: true

@@ -1,0 +1,83 @@
+properties:
+- {name: prop, type: number, default_value: 9, default_binding_prop: true}
+- {name: prop_2, type: string, default_value: ''}
+- {name: prop_3, type: string, default_value: ''}
+is_package: true
+events:
+- {name: event, default_event: true}
+custom_component: true
+components:
+- type: ColumnPanel
+  properties: {col_widths: '{}'}
+  name: content_panel
+  layout_properties: {slot: default}
+  components:
+  - type: ColumnPanel
+    properties: {role: outlined-card, col_widths: '{}'}
+    name: outlined_card_1
+    layout_properties: {grid_position: 'JHQGQE,ICVCDU'}
+    components:
+    - type: Label
+      properties: {role: headline, align: center, tooltip: '', border: '', foreground: '',
+        visible: true, text: 'Select one of the relevant options below, which will
+          guide you through the process.', font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: 'theme:Primary
+          Overlay 1', bold: false, underline: false, icon: ''}
+      name: welcome_message
+      layout_properties: {grid_position: 'XFLSRA,ORUUJA'}
+    - type: Label
+      properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+        visible: true, text: 'Church member:', font_size: null, font: '', spacing_above: large,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
+      name: label_3
+      layout_properties: {grid_position: 'DYYAGY,VJGTQA'}
+    - type: Button
+      properties: {role: tonal-button, align: center, tooltip: '', border: '', enabled: true,
+        foreground: '', visible: true, text: Click here to continue, font_size: null,
+        font: '', spacing_above: none, icon_align: left, spacing_below: small, italic: false,
+        background: '', bold: false, underline: false, icon: ''}
+      name: church_button
+      layout_properties: {grid_position: 'YDYVIC,IALHLT'}
+      event_bindings: {click: button_2_click}
+    - type: Label
+      properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+        visible: false, text: '', font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
+      name: label_1
+      layout_properties: {grid_position: 'PFFEZK,UTBPVD'}
+    - type: Label
+      properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+        visible: true, text: 'Church visitor:', font_size: null, font: '', spacing_above: large,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
+      name: label_7
+      layout_properties: {grid_position: 'TBMAKO,UELRKQ'}
+    - type: Button
+      properties: {role: tonal-button, align: center, tooltip: '', border: '', enabled: true,
+        foreground: '', visible: true, text: Click here to continue, font_size: null,
+        font: '', spacing_above: none, icon_align: left, spacing_below: small, italic: false,
+        background: '', bold: false, underline: false, icon: ''}
+      name: visitor_button
+      layout_properties: {grid_position: 'DTHGXE,FITQPZ'}
+      event_bindings: {click: visitor_button_click}
+  - type: ColumnPanel
+    properties: {role: outlined-card, col_widths: '{}'}
+    name: outlined_card_2
+    layout_properties: {grid_position: 'NZPFOD,XRIHSV'}
+    components:
+    - type: Label
+      properties: {role: null, align: center, tooltip: '', border: '', foreground: red,
+        visible: true, text: 'Disclaimer: Please note that the information captured
+          on the next page will be used or processed solely for church purposes and
+          in accordance with the POPI Act. You are entitled to request the retention
+          or destruction of your personal information from the system. For any inquiries,
+          please contact the admin at 0## $$$ ##$$.', font_size: null, font: '14',
+        spacing_above: large, icon_align: left, spacing_below: small, italic: false,
+        background: '', bold: true, underline: false, icon: ''}
+      name: label_2
+      layout_properties: {grid_position: 'AXAVWK,FWRRPH'}
+container:
+  type: HtmlTemplate
+  properties: {html: '@theme:standard-page.html'}

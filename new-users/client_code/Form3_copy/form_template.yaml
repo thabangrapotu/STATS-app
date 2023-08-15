@@ -1,0 +1,8 @@
+is_package: true
+container:
+  type: HtmlTemplate
+  properties: {tooltip: '', background: '', foreground: '', border: '', visible: true,
+    role: null, html: '@theme:new_file_2.html'}
+components: []
+custom_component: true
+properties: []
