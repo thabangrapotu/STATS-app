@@ -1,4 +1,12 @@
+# Ignore Python compiled files and anvil data
 *.pyc
 *.pyo
 *.__pycache__
 *.anvil-data
+
+
+# Ignore Colab notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Colab HTML export
+*.html
