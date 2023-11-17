@@ -1,7 +1,7 @@
 # stats-app Repository
 This repository contains the source code and assets for the website. The stats app is built using HTML, CSS, Python and JavaScript and serves as a platform for showcasing a web-based app that collects and shares a short report of data.
 The app offers a visually appealing and user-friendly interface, utilizing modern web development techniques and best practices. It incorporates responsive design principles, ensuring compatibility across various devices and screen sizes.
-Key features of the app include design, an interactive user interface, navigation and menus, and Forms and User Input, data collection and processing, and sharing a report. The combination of HTML, CSS, avaScript and python allows for interactive elements, smooth animations, and seamless navigation, enhancing the overall user experience. designed to provide hands-on experience and practical applications of data analysis and other data science methodologies.
+Key features of the app include design, an interactive user interface, navigation and menus, and Forms and User Input, data collection and processing, and sharing a report. The combination of HTML, CSS, JavaScript and python allows for interactive elements, smooth animations, and seamless navigation, enhancing the overall user experience. designed to provide hands-on experience and practical applications of data analysis and other data science methodologies.
 
 
 ## Table of Contents
